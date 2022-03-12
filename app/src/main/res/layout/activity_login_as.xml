@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FBFBFB"
     tools:context=".loginAs">
 
     <ImageView
@@ -18,13 +19,34 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/joinAsBusiness"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
         android:layout_marginTop="80dp"
+        android:background="@drawable/buttonbackground"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/be_vietnam_pro_bold"
         android:text="Join as a Business"
-        android:background="@color/white"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/joinAsInvestor"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonbackground"
+        android:fontFamily="@font/be_vietnam_pro_bold"
+        android:gravity="center"
+        android:text="Join as an Investor"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/joinAsBusiness" />
 </androidx.constraintlayout.widget.ConstraintLayout>
