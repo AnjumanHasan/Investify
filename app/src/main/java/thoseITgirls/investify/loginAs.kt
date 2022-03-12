@@ -14,11 +14,16 @@ class loginAs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login_as)
-
+        businessButton = findViewById(R.id.joinAsBusiness)
+        investorButton =findViewById(R.id.joinAsInvestor)
+        loginText =findViewById(R.id.loginText)
         businessButton.setOnClickListener{
             val intent = Intent(this,businessSignup::class.java)
             startActivity(intent)
         }
-
+        loginText.setOnClickListener{
+            val intent1 = Intent(this,login::class.java)
+            startActivity(intent1)
+        }
     }
 }
