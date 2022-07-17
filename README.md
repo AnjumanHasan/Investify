@@ -1,5 +1,5 @@
 # Investify
-thoseITgirls present Investify!
+GitInit present Investify!
 
 Investify is an android based application that connects businesses to prospective investors. Through our unique and innovative idea, we are trying to build a platform to connect the gap between businesses and investors!
 This is just Shark Tank, but in an app!
